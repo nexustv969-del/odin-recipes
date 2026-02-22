@@ -1,0 +1,44 @@
+* {
+  font-family: "Gilroy", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Главная страница */
+
+.content {
+  max-width: 400px;
+  background-color: #f8f9ff;
+  margin: auto;
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.recipe {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ebedf9;
+  padding: 16px 16px;
+  margin: 8px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease-out;
+}
+
+li:hover {
+  background-color: #e1e2ef;
+}
+
+/* Страница Лазаньи */
